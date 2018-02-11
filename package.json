@@ -1,0 +1,39 @@
+{
+  "name": "seleniumstandalone",
+  "version": "1.0.0",
+  "description": "Sample Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "author": "GJ",
+  "license": "ISC",
+  "devDependencies": {
+    "scroll-js": "^1.8.8",
+    "wdio-dot-reporter": "0.0.9",
+    "wdio-json-reporter": "^0.3.1",
+    "wdio-mocha-framework": "^0.5.12",
+    "wdio-mochawesome-reporter": "^1.2.0",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.3"
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgJez/TheInternet.git"
+ 
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "grunt": "^1.0.2",
+    "json-server": "^0.12.1",
+    "mocha": "^5.0.0",
+    "mochawesome": "^3.0.2",
+    "mongodb": "^3.0.2",
+    "node-xlsx": "^0.11.2",
+    "promise-mongo": "^3.0.3",
+    "should": "^13.2.1",
+    "supertest": "^3.0.0",
+    "wdio-json-reporter": "~0.0.1",
+    "wdio-dot-reporter": "~0.0.8"
+  }
+}
